@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package telas;
+package br.edu.loginmenu;
 
 import javax.swing.JOptionPane;
 
@@ -78,14 +78,14 @@ public class tela1 extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
         jLabel2.setText("login");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(140, 170, 29, 16);
+        jLabel2.setBounds(140, 170, 27, 16);
 
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
         jLabel3.setText("senha");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(140, 240, 33, 16);
+        jLabel3.setBounds(140, 240, 32, 16);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Bem-Vindo(a).png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/Bem-Vindo(a).png"))); // NOI18N
         jPanel1.add(jLabel4);
         jLabel4.setBounds(0, 0, 530, 360);
 

@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package telas;
+package br.edu.loginmenu;
+
+import br.edu.calculadora.Calculadora;
 
 /**
  *
@@ -45,7 +47,6 @@ public class tela2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
-        setMaximumSize(new java.awt.Dimension(540, 363));
         setMinimumSize(new java.awt.Dimension(540, 363));
         setResizable(false);
         getContentPane().setLayout(null);
@@ -53,11 +54,16 @@ public class tela2 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Showcard Gothic", 0, 18)); // NOI18N
         jLabel1.setText("Clique no botão do icone desejado para executar");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(32, 33, 478, 23);
+        jLabel1.setBounds(32, 33, 490, 23);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/jogovelha.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/jogovelha.png"))); // NOI18N
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(76, 74, 162, 180);
+        jLabel4.setBounds(76, 74, 160, 160);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         getContentPane().add(jLabel3);
@@ -109,22 +115,39 @@ public class tela2 extends javax.swing.JFrame {
         getContentPane().add(jLabel14);
         jLabel14.setBounds(420, 160, 20, 20);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/calculadora.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/calculadora.png"))); // NOI18N
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+        });
         getContentPane().add(jLabel2);
         jLabel2.setBounds(330, 70, 120, 180);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+
+        /*dispose();
+        new Jogo().setVisible(true);*/
+    }//GEN-LAST:event_jLabel4MouseClicked
+
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+        dispose();
+        new Calculadora().setVisible(true);
+    }//GEN-LAST:event_jLabel2MouseClicked
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
+/*    public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
+        /*
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -144,13 +167,14 @@ public class tela2 extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+    /*
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new tela2().setVisible(true);
             }
         });
     }
-
+*/
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
