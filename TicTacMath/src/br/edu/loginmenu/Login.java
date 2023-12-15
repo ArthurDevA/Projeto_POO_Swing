@@ -10,12 +10,12 @@ import javax.swing.JOptionPane;
  *
  * @author Usuário
  */
-public class tela1 extends javax.swing.JFrame {
+public class Login extends javax.swing.JFrame {
 
     /**
      * Creates new form tela1
      */
-    public tela1() {
+    public Login() {
         initComponents();
         setLocationRelativeTo(null);
     }
@@ -83,7 +83,7 @@ public class tela1 extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
         jLabel3.setText("senha");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(140, 240, 32, 16);
+        jLabel3.setBounds(140, 240, 40, 16);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/Bem-Vindo(a).png"))); // NOI18N
         jPanel1.add(jLabel4);
@@ -119,7 +119,7 @@ public class tela1 extends javax.swing.JFrame {
         if(loginuser.getText().equals("admin")&& passuser.getText().equals("admin")){
             
             JOptionPane.showMessageDialog(null,"Login efetuado");
-            new tela2().setVisible(true);
+            new Menu().setVisible(true);
             dispose();
         
         }else{
@@ -145,20 +145,23 @@ public class tela1 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(tela1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new tela1().setVisible(true);
+                new Login().setVisible(true);
             }
         });
     }

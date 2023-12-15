@@ -3,6 +3,7 @@ package br.edu.calculadora;
 
 import java.math.BigDecimal;
 import br.edu.calculadora.Operadores.*;
+import br.edu.loginmenu.Menu;
 
 public class Calculadora extends javax.swing.JFrame {
 
@@ -37,10 +38,12 @@ public class Calculadora extends javax.swing.JFrame {
         btmais = new javax.swing.JButton();
         btCE = new javax.swing.JButton();
         tela = new javax.swing.JTextField();
+        setaMenu = new javax.swing.JButton();
 
         jCheckBox1.setText("jCheckBox1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         bt7.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         bt7.setText("7");
@@ -188,6 +191,18 @@ public class Calculadora extends javax.swing.JFrame {
             }
         });
 
+        setaMenu.setBackground(new java.awt.Color(242, 242, 242));
+        setaMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/setaMenu.png"))); // NOI18N
+        setaMenu.setBorder(null);
+        setaMenu.setMaximumSize(new java.awt.Dimension(40, 40));
+        setaMenu.setMinimumSize(new java.awt.Dimension(40, 40));
+        setaMenu.setPreferredSize(new java.awt.Dimension(40, 40));
+        setaMenu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                setaMenuActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -231,13 +246,16 @@ public class Calculadora extends javax.swing.JFrame {
                     .addComponent(btmais, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btCE, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(tela, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(tela, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(setaMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addComponent(tela, javax.swing.GroupLayout.DEFAULT_SIZE, 69, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(tela, javax.swing.GroupLayout.DEFAULT_SIZE, 63, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -272,6 +290,8 @@ public class Calculadora extends javax.swing.JFrame {
                             .addComponent(btigual, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btponto, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bt0, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(setaMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -287,9 +307,9 @@ public class Calculadora extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(16, Short.MAX_VALUE)
+                .addContainerGap(19, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18))
+                .addGap(0, 0, 0))
         );
 
         pack();
@@ -418,6 +438,11 @@ public class Calculadora extends javax.swing.JFrame {
     private void btigualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btigualActionPerformed
         op.OperadorBotao("igual", tela);       
     }//GEN-LAST:event_btigualActionPerformed
+
+    private void setaMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setaMenuActionPerformed
+        dispose();
+        new Menu().setVisible(true);
+    }//GEN-LAST:event_setaMenuActionPerformed
                                   
     
 /*
@@ -449,6 +474,7 @@ public class Calculadora extends javax.swing.JFrame {
     private javax.swing.JButton btponto;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton setaMenu;
     private javax.swing.JTextField tela;
     // End of variables declaration//GEN-END:variables
 }
