@@ -194,9 +194,6 @@ public class Calculadora extends javax.swing.JFrame {
         setaMenu.setBackground(new java.awt.Color(242, 242, 242));
         setaMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/setaMenu.png"))); // NOI18N
         setaMenu.setBorder(null);
-        setaMenu.setMaximumSize(new java.awt.Dimension(40, 40));
-        setaMenu.setMinimumSize(new java.awt.Dimension(40, 40));
-        setaMenu.setPreferredSize(new java.awt.Dimension(40, 40));
         setaMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 setaMenuActionPerformed(evt);
@@ -248,7 +245,7 @@ public class Calculadora extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(tela, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(setaMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(setaMenu))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -291,7 +288,7 @@ public class Calculadora extends javax.swing.JFrame {
                             .addComponent(btponto, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(bt0, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(setaMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(setaMenu)
                 .addContainerGap())
         );
 

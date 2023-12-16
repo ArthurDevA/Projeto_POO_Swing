@@ -65,7 +65,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(enter);
         enter.setBounds(400, 320, 72, 23);
         jPanel1.add(loginuser);
-        loginuser.setBounds(140, 190, 240, 22);
+        loginuser.setBounds(140, 190, 240, 20);
 
         passuser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,7 +78,7 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
         jLabel2.setText("login");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(140, 170, 27, 16);
+        jLabel2.setBounds(140, 170, 40, 16);
 
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
         jLabel3.setText("senha");
