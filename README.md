@@ -21,12 +21,12 @@
 ## Requisitos:
 ### Jdk17 ou versões mais atuais.
 
-## Como usar
+## Como usar:
 
 1. <h4>Verifique se o seu computador antende aos requisitos para executar o app </h4>
 2. <h4></h4>
 
-## Ferramentas utilizadas 
+## Ferramentas utilizadas:
 <div>
     <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/f3e5c70a-be62-4952-9295-c8b43cd41967"/>
     <img height="70" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/canva/canva-original.svg"/>
