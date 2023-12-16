@@ -2,10 +2,10 @@
 
 * [Sobre](#Sobre)
 * [Requisitos](#Requisitos)
-* [Como Usar](#Como-Usar)
-* [Ferramentas Utilizadas](#Ferramentas-Utilizadas)
+* [Como usar](#Como-usar)
+* [Ferramentas utilizadas](#Ferramentas-utilizadas)
 * [Linguagem](#Linguagem)
-* [Diagrama](#Diagrama-de-telas)
+* [Fluxo de telas](#Fiagrama-de-telas)
 * [Equipe](#Equipe)
 
 
@@ -21,17 +21,17 @@
 ## Requisitos:
 ### Jdk17 ou versões mais atuais.
 
-## Como Usar
+## Como usar
 
 1. <h4>Verifique se o seu computador antende aos requisitos para executar o app </h4>
 2. <h4></h4>
 
 ## Ferramentas utilizadas 
 <div>
-    <img height="70m"src="https://raw.githubusercontent.com/gist/Elbston/8e17f523f8171c332b0817bf8e2054fe/raw/03a9a26dce710d5fd9ea829ba4d45ed2569ff962/netbeans.svg"/>
+    <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/f3e5c70a-be62-4952-9295-c8b43cd41967"/>
     <img height="70" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/canva/canva-original.svg"/>
-    <img height="70" src=""/>
-    <img height="70" src=""/>
+    <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/f41f689e-45a2-47ea-9987-170b134be1b4"/>
+    <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/f5f7dcc5-cd6b-4411-b73d-93cb6cb86f07"/>
 </div>
 
 ## Linguagem:
@@ -39,9 +39,9 @@
     <img height="70" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/java/java-original-wordmark.svg"/>
 </div>
 
-## Diagrama de telas:
+## Fluxo de telas:
 <div>
-    <img height="350" src=""/>
+    <img height="350" src="https://github.com/ArthurDevA/Projeto_POO_Swing/assets/141514740/12bfe9e0-632d-484e-a1f6-11c1077648d0"/>
 </div>
 
 ## Equipe:
