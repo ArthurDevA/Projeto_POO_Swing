@@ -65,7 +65,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(enter);
         enter.setBounds(400, 320, 72, 23);
         jPanel1.add(loginuser);
-        loginuser.setBounds(140, 190, 240, 20);
+        loginuser.setBounds(140, 190, 240, 22);
 
         passuser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

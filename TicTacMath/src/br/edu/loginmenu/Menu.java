@@ -50,9 +50,9 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         cliqueParaExecutar.setFont(new java.awt.Font("Showcard Gothic", 0, 18)); // NOI18N
-        cliqueParaExecutar.setText("Clique no botão do icone desejado para executar");
+        cliqueParaExecutar.setText("Clique no botão do ícone desejado para executar");
         getContentPane().add(cliqueParaExecutar);
-        cliqueParaExecutar.setBounds(20, 30, 490, 23);
+        cliqueParaExecutar.setBounds(20, 23, 490, 30);
 
         jogoDaVelha.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/imagens/jogovelha.png"))); // NOI18N
         jogoDaVelha.addMouseListener(new java.awt.event.MouseAdapter() {
