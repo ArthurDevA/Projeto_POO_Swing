@@ -19,12 +19,17 @@
 </h3>
 
 ## Requisitos:
-### Jdk17 ou versões mais atuais.
+### Jdk17 ou versões mais atuais e NetaBeans (para executar o programa).
 
 ## Como usar:
 
-1. <h4>Verifique se o seu computador antende aos requisitos para executar o app </h4>
-2. <h4></h4>
+1. <h4>Verifique se o seu computador antende aos requisitos para executar o app.</h4>
+2. <h4>Baixe os arquivos da pasta TicTacMath em sua máquina.</h4>
+3. <h4>Abra o NeatBeans e clique na barra superior em "File" e depois clique em "Open Project...".</h4>
+4. <h4>Selecione a pasta onde foi feita a instalção dos arquivos (no passo 2.).</h4>
+5. <h4>Após o NeatBeans abrir o projeto, na toolbar, clique no ícone "Run Project", indicado por um botão verde.</h4>
+6. <h4>Na tela de login, digite o usuário "admin" e a senha "admin" e clique em "entrar".</h4>
+7. <h4>Pronto! Agora é só escolher ou a calculadora ou o jogo da velha para usar.</h4>
 
 ## Ferramentas utilizadas:
 <div>
