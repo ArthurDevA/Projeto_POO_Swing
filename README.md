@@ -46,7 +46,7 @@
 
 ## Fluxo de telas:
 <div>
-    <img height="350" src="https://github.com/ArthurDevA/Projeto_POO_Swing/assets/141514740/12bfe9e0-632d-484e-a1f6-11c1077648d0"/>
+    <img height="350" src="https://github.com/ArthurDevA/Projeto_POO_Swing/assets/141514740/68b6f108-9f81-49e6-961c-3f5092e58ed2"/>
 </div>
 
 ## Equipe:
