@@ -37,6 +37,7 @@
     <img height="70" src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/canva/canva-original.svg"/>
     <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/f41f689e-45a2-47ea-9987-170b134be1b4"/>
     <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/f5f7dcc5-cd6b-4411-b73d-93cb6cb86f07"/>
+    <img height="70m"src="https://github.com/ArthurDevA/ArthurDevA/assets/141514740/4d62c21b-7feb-4fef-a244-798edb11ec23"/>
 </div>
 
 ## Linguagem:
@@ -46,7 +47,7 @@
 
 ## Fluxo de telas:
 <div>
-    <img height="350" src="https://github.com/ArthurDevA/Projeto_POO_Swing/assets/141514740/68b6f108-9f81-49e6-961c-3f5092e58ed2"/>
+    <img height="350" src="https://github.com/ArthurDevA/Projeto_POO_Swing/assets/141514740/45e6d369-24a2-4eee-a243-fd9f1f8b6a46"/>
 </div>
 
 ## Equipe:
@@ -72,4 +73,4 @@
     <div>
         <img height="300" src="https://avatars.githubusercontent.com/u/141374183?v=4"/>
     </div>
-    <h3>Foi desenvolvedor full-stck da tela de login e menu.</h3>
+    <h3>Foi desenvolvedor full-stck da tela de login e menu e fez o slide da apresentação.</h3>
