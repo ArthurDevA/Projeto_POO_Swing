@@ -15,7 +15,7 @@ import java.math.RoundingMode;
 public class Operadores {
     
     private String operador="igual", situacao="a", acumulador, valor;
-    private BigDecimal zero = new BigDecimal("0.0");
+    private final BigDecimal zero = new BigDecimal("0.0");
     private BigDecimal acc = new BigDecimal("0.0");
     private BigDecimal vlr = new BigDecimal("0.0");
     

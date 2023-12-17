@@ -2,12 +2,11 @@
 package br.edu.calculadora;
 
 import java.math.BigDecimal;
-import br.edu.calculadora.Operadores.*;
 import br.edu.loginmenu.Menu;
 
 public class Calculadora extends javax.swing.JFrame {
 
-    private Operadores op = new Operadores();
+    private final Operadores op = new Operadores();
     
     public Calculadora() {
         initComponents();
@@ -18,7 +17,6 @@ public class Calculadora extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jCheckBox1 = new javax.swing.JCheckBox();
         jPanel1 = new javax.swing.JPanel();
         bt7 = new javax.swing.JButton();
         bt8 = new javax.swing.JButton();
@@ -39,8 +37,6 @@ public class Calculadora extends javax.swing.JFrame {
         btCE = new javax.swing.JButton();
         tela = new javax.swing.JTextField();
         setaMenu = new javax.swing.JButton();
-
-        jCheckBox1.setText("jCheckBox1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -469,7 +465,6 @@ public class Calculadora extends javax.swing.JFrame {
     private javax.swing.JButton btmenos;
     private javax.swing.JButton btmultiplicação;
     private javax.swing.JButton btponto;
-    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JButton setaMenu;
     private javax.swing.JTextField tela;
